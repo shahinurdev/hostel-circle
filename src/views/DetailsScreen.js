@@ -9,9 +9,13 @@ import {
 } from 'react-native';
 import COLORS from '../consts/colors';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Button } from 'react-native';
 
 const DetailsScreen = ({navigation, route}) => {
   const item = route.params;
+  openAlert=()=>{
+    alert('Thanks For Booking');
+  }
 
   return (
     <ScrollView
@@ -110,9 +114,15 @@ const DetailsScreen = ({navigation, route}) => {
           </View>
         </View>
         <View style={style.btn}>
-          <Text style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
+          {/* <Text  style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
             Book Now
-          </Text>
+           
+          </Text> */}
+          <Button 
+                onPress={openAlert}
+                title="Book Now"
+                
+              />
         </View>
       </View>
     </ScrollView>
