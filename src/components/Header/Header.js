@@ -8,19 +8,19 @@ const Header = () => {
   return (
     <View style={style.header}>
       <View style={{ paddingBottom: 15 }}>
-        <Text style={{ fontSize: 30, fontWeight: "bold", textAlign: "right" }}>
-          Find your hostel
+        <Text style={{ fontSize: 36, fontWeight: "bold", textAlign: "center", color: COLORS.primary }}>
+          Hostel Circle
         </Text>
         <View style={{ flexDirection: "row" }}>
-          <Text style={{ fontSize: 30, fontWeight: "bold" }}>in </Text>
+          <Text style={{ fontSize: 20, fontWeight: "normal", textAlign: "center" }}>Find Your Hostel in </Text>
           <Text
-            style={{ fontSize: 30, fontWeight: "bold", color: COLORS.primary }}
+            style={{ fontSize: 20, fontWeight: "normal", color: COLORS.primary }}
           >
             Thailand
           </Text>
         </View>
       </View>
-      <Icon name="person-outline" size={38} color={COLORS.grey} />
+      
     </View>
   );
 };
@@ -29,7 +29,7 @@ const style = StyleSheet.create({
   header: {
     marginTop: 20,
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     paddingHorizontal: 20,
   },
 });
