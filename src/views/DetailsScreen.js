@@ -93,7 +93,7 @@ const DetailsScreen = ({navigation, route}) => {
               style={{
                 fontSize: 16,
                 fontWeight: 'bold',
-                color: COLORS.grey,
+                color: COLORS.white,
                 marginLeft: 5,
               }}>
               ${item.price}
@@ -102,7 +102,7 @@ const DetailsScreen = ({navigation, route}) => {
               style={{
                 fontSize: 12,
                 fontWeight: 'bold',
-                color: COLORS.grey,
+                color: COLORS.white,
                 marginLeft: 5,
               }}>
               +breakfast
