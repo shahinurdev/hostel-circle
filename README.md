@@ -1,14 +1,13 @@
-# This is Group working Project, It's name: Hostel Circle
-## PROJECT MANAGEMENT AND DEVELOPER : Shahidul Islam Siam
-## DEVELOPER: Mijanul Karim
-## DEVELOPER: MD SHAHINUR KHAN
+## Hostel Circle -Hostel Booking App
 
-## This App Name is Hostel Circle
-## It’s Hostel booking App
-## User can find any kind of Room from here.
-## This App Create by React Native
+#### Developer:  Shahidul Islam Siam
+#### Developer : Mijanul Karim
+#### Developer : MD SHAHINUR KHAN
 
-## Tools: Html, Css, React Native, Expo CLI
+
+This is Hostel Booking React Native App where user can search and book the hostel room.
+
+### React Native, React Navigation
 
 
 
