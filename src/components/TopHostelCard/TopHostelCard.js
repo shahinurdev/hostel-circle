@@ -1,7 +1,5 @@
 import React from "react";
-
 import { StyleSheet, Text, View, Image } from "react-native";
-
 import Icon from "react-native-vector-icons/MaterialIcons";
 import COLORS from "../../consts/colors";
 
