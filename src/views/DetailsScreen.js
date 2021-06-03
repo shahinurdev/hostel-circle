@@ -13,7 +13,7 @@ import { Button } from 'react-native';
 
 const DetailsScreen = ({navigation, route}) => {
   const item = route.params;
-  openAlert=()=>{
+  const openAlert=()=>{
     alert('Thanks For Booking');
   }
 
@@ -73,7 +73,7 @@ const DetailsScreen = ({navigation, route}) => {
                 4.0
               </Text>
             </View>
-            <Text style={{fontSize: 13, color: COLORS.grey}}>365reviews</Text>
+            <Text style={{fontSize: 13, color: COLORS.grey}}> 5reviews</Text>
           </View>
           <View style={{marginTop: 20}}>
             <Text style={{lineHeight: 20, color: COLORS.grey}}>
@@ -109,20 +109,15 @@ const DetailsScreen = ({navigation, route}) => {
                 color: COLORS.white,
                 marginLeft: 5,
               }}>
-              +breakfast
+              + breakfast
             </Text>
           </View>
         </View>
         <View style={style.btn}>
-          {/* <Text  style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
+           <Text onPress={openAlert}  style={{color: COLORS.white, fontSize: 18, fontWeight: 'bold'}}>
             Book Now
            
-          </Text> */}
-          <Button 
-                onPress={openAlert}
-                title="Book Now"
-                
-              />
+          </Text>
         </View>
       </View>
     </ScrollView>
